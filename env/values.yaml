@@ -22,3 +22,7 @@ jenkins:
       EnvVars:
         TILLER_NAMESPACE: kube-system
 prow: {}
+core-team-service:
+  env:
+    - name: MONGO_DATABASE
+      value: production
